@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="enpt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Lâmpada</title>
+</head>
+<body>
+    <h1>Exemplo de uso de Funções e Eventos em JavaScript</h1>
+      <!-- <img id="lampada" src="imagens/lampada-apagada.jpg" onmousemove="acenderLampada()" onmouseout="apagarLampada()" onclick="quebrarLampada()"> -->
+    <!-- <img id="lampada" src="imagens/lampada-apagada.jpg"> -->
+      <img id="lampada" src="imagens/lampada-apagada.jpg" onmousemove="mudarLampada('acesa')" onmouseout="mudarLampada('apagada')" onclick="mudarLampada('quebrada')">
+  
+    <!-- INCORPORAR O ARQUIVO JavaScript COM A PÁGINA HTML -->
+    <script src="lampada.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Exemplo 01</title>
+</head>
+<body>
+    <h1 id="titulo">Javascript - Introdução</h1>    
+    <h2 id="msg" >Olá 5º período do BCC</h2>
+    <p class="cor">Alterando a cor de fundo do parágrafo</p>
+    <div id="conteudo">Alterando o texto da DIV</div>
+    <hr>
+    <script>
+        //document.getElementsByTagName(`h1`)[0].innerText = "Teste";
+        // Criar variáveis dos elementos HTML (DOM) para manipular via JS (JavaScript)
+        var titulo = document.getElementsByTagName(`h1`)[0];
+        var msg = document.getElementById(`msg`);
+        //var cor = document.getElementsByClassName(`cor`);
+        var cor = document.querySelector(`p.cor`);
+        var conteudo = document.querySelector(`div#conteudo`);
+        // Alterando as propriedades das TAGs (Objetos) HTML
+        titulo.innerText = `Novo Título da página`;
+        titulo.style.background = `orange`;
+        msg.style.background = "red";
+        msg.style.color = 'white';
+        msg.style.fontFamily = 'Arial';
+        cor.style.background = "green";
+        conteudo.innerHTML = "<h2>Novo conteúdo da DIV<h2>";
+
+
+        document.write("<h3>Olá Mundo.</h3>");
+        document.write('<hr>Olá Turma.');
+        /*window.alert(`Hoje é sexta-feira!!!`); */
+        var nome;
+        nome = "Maria";
+        let idade = 25;
+        //window.prompt("Digite seu nome");
+        ///window.confirm('Deseja realmente excluir?');
+        document.write("<br>Olá " + nome + ". ");
+        //document.write("Sua idade é: " + idade)
+        document.write(`<br>Olá ${nome}. Sua idade é: ${idade}.<hr>`);
+        var n1 = 8;
+        var n2 = 2;
+        var soma = n1 + n2;
+        document.write(`O resultado entre ` + n1 + ` + ` + n2 + ` é igual a `+ soma + `.<hr>`);
+        document.write(`O resultado entre ${n1} + ${n2} é igual a ${soma}.<hr>`);
+        
+    </script>
+</body>
+</html>

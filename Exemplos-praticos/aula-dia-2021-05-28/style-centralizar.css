@@ -1,0 +1,37 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 { text-align: center; }
+p { text-align: center; }
+
+header {
+	background-color: orange;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+main{
+	display: flex;
+	justify-content: center
+}
+.div-pai{
+	background-color: orange;
+	width: 60%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.em-linha{
+	background-color: skyblue;	
+	width: 30%;
+	margin: 1%;
+	display: flex;
+	align-items: center;
+}

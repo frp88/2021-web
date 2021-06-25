@@ -1,0 +1,41 @@
+html, body, header, main, footer, h1, p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+header{
+    background-color: #cdcdcd;
+    height: 50px;
+    /*width: 100%;
+    margin-top: 50px;
+    padding-left: 10%;*/
+    padding-top: 25px;    
+}
+main{
+    background-color: darkgray;
+    border: 2px solid red;
+    margin: 15px;
+    padding: 10px;
+}
+.primeira{
+    background-color: limegreen;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.segunda{
+    background-color: yellow;
+    /*padding: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 100px;*/
+    padding: 10px 20px 30px 100px;
+}
+.terceira{
+    background-color: deepskyblue;
+    margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
